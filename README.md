@@ -1,6 +1,7 @@
-<img align="center" src="https://github-readme-stats.vercel.app/api?username=prikolmen&count_private=true&show_icons=true&theme=omni"/> (изменено)
-
 ### Hi there 👋
+
+<img align="center" src="https://github-readme-stats.vercel.app/api?username=prikolmen&count_private=true&show_icons=true&theme=omni"/> (изменено)
+<img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=prikolmen&layout=compact&theme=omni" width="58%"/>
 
 <!--
 **PrikolMen/PrikolMen** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
