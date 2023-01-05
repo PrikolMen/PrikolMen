@@ -1,4 +1,4 @@
-# Visual Studio Code - Garry's Mod Modder Extensions
+# A set of extensions for Garry's Mod developers using Visual Studio Code.
 A pack of useful Visual Studio Code extensions for Garry's Mod mod developers that I use and recommend you use.
 
 ## [GLua Enhanced](https://marketplace.visualstudio.com/items?itemName=venner.vscode-glua-enhanced)
