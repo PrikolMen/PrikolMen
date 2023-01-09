@@ -13,3 +13,6 @@ glualint - Linter and pretty printer for Garry's Mod's variant of Lua.
 
 ## [Trailing Whitespace](https://marketplace.visualstudio.com/items?itemName=jkiviluoto.tws)
 All trailing whitespace can be decorated with red highlight. Trailing whitespace can be trimmed upon saving the file, but only from lines user has modified.
+
+## [Valve KeyValue Files Support](https://marketplace.visualstudio.com/items?itemName=GEEKiDoS.vdf)
+Adds support valve kv language(.vmt .qc .vdf .res .kv .fgd etc.) in your Visual Studio Code.
