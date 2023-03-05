@@ -4,16 +4,17 @@ atmosphere.Require( 'utils' )
 
 Plugin.Name = 'Code Runner'
 Plugin.Author = 'PrikolMen:-b'
+Plugin.BinaryName = 'rocx'
 
 local logger = atmosphere.logger.Create( Plugin.Name, Color( 100, 150, 150 ) )
 local filesystem = atmosphere.filesystem
 
-if not util.IsBinaryModuleInstalled( 'rocx' ) then
+if not util.IsBinaryModuleInstalled( Plugin.BinaryName ) then
     logger:Error( 'Binary module not installed! [https://github.com/Earu/gm_rocx]' )
     return
 end
 
-if not pcall( require, 'rocx' ) then
+if not pcall( require, Plugin.BinaryName ) then
     logger:Error( 'Installation of the binary module failed!' )
     return
 end
