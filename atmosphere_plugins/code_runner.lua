@@ -39,9 +39,9 @@ concommand.Add( 'cl_run_code', function( _, __, ___, luaCode )
     end, luaCode )
 end)
 
-if not filesystem.IsDir( 'scripts', 'ATMOSPHERE' ) then
-    filesystem.Delete( 'scripts', 'ATMOSPHERE' )
-    filesystem.CreateDir( 'scripts', 'ATMOSPHERE' )
+if not filesystem.IsDir( 'scripts' ) then
+    filesystem.Delete( 'scripts' )
+    filesystem.CreateDir( 'scripts' )
 end
 
 concommand.Add( 'cl_run_scripts', function( _, __, ___, str )
